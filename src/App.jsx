@@ -5,6 +5,8 @@ import Projects from './components/Projects.jsx';
 import Contact from './components/Contacts.jsx';
 import About from './components/About.jsx';
 import ContactInfo from "./components/ContactInfo.jsx";
+import Experience from './components/Experience.jsx';
+
 const App = () => {
     return (
         <div className="min-h-screen bg-slate-900 text-gray-100">
@@ -13,6 +15,7 @@ const App = () => {
             <About/>
             <Skills />
             <Projects />
+            <Experience />
             <ContactInfo/>
             <Contact />
         </div>

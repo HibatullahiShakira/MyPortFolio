@@ -2,18 +2,32 @@ import { motion } from 'framer-motion';
 
 const Skills = () => {
     const skills = {
-        "Data Science": [
-            "Python", "Pandas", "Scikit-learn", "TensorFlow",
-            "SQL", "PowerBi", "Statistical Analysis", "Hypothesis Testing",
-            "Numpy", "Matplotlib", "Computer Vision", "OpenCv", "Time Series"
+        "Languages & Frameworks": [
+            "Python", "Java", "JavaScript", "SQL", "TypeScript",
+            "Flask", "Django", "FastAPI", "Spring Boot", "React"
+        ],
+        "ML/AI Stack": [
+            "PyTorch", "TensorFlow", "HuggingFace Transformers", "Scikit-learn",
+            "OpenCV", "Whisper", "Llama-3", "SARIMA/ARIMA", "XGBoost"
+        ],
+        "NLP & Speech": [
+            "ASR/TTS architectures", "NLTK", "SpaCy", "fine-tuning LLMs (LoRA)",
+            "prompt engineering", "Whisper", "Whisper", "speech preprocessing"
+        ],
+        "MLOps & Cloud": [
+            "Docker", "Kubernetes", "AWS (Lambda, SageMaker, EC2, S3)",
+            "CI/CD (GitHub Actions)", "MLflow"
+        ],
+        "Data Engineering": [
+            "PostgreSQL", "BigQuery", "ETL (Mage)", "Pandas", "NumPy",
+            "large-scale preprocessing"
         ],
         "Software Engineering": [
-            "Java", "Spring Boot", "OOP", "UML Diagrams",
-            "Django", "REST APIs", "Git", "Docker", "TDD", "SDLC"
+            "REST API design", "microservices", "OOP", "SDLC", "TDD",
+            "Git", "WebSockets", "real-time systems"
         ],
         "Frontend": [
-            "HTML", "CSS", "JavaScript", "React Basics",
-            "Responsive Design", "Bootstrap"
+            "HTML", "CSS", "JavaScript", "React", "responsive design"
         ]
     };
 

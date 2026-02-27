@@ -7,15 +7,20 @@ const About = () => (
 
             <div className="max-w-3xl mx-auto text-gray-300 space-y-6">
                 <p>
-                    I Shakira Hibatullahi, a passionate problem-solver combining expertise in Economics and Software Engineering to create data-driven solutions. With a degree in Economics and intensive training at Semicolon Africa, I bridge technical implementation with business impact.
+                    I am a Machine Learning Engineer and Software Engineer with a solid grounding in Economics
+                    and quantitative analysis. My career spans across help contributing to building Nigeria’s first open-source multilingual LLM,
+                    deploying ASR/TTS services at scale, and architecting production ML pipelines for fintech and risk models.
                 </p>
 
                 <p>
-                    My work focuses on developing practical solutions to real-world challenges, from financial systems optimization to computer vision applications. I thrive in cross-functional environments where technical excellence meets strategic business understanding.
+                    I specialize in end-to-end systems—from data collection and preprocessing through model training,
+                    inference APIs and cloud deployment. I enjoy working at the intersection of research and engineering,
+                    translating complex algorithms into reliable, maintainable software.
                 </p>
 
                 <p>
-                    When not coding, I explore new developments in AI/ML. Currently seeking opportunities to apply my skills in impactful data science roles.
+                    Outside of work I mentor aspiring engineers, contribute to open-source language models, and keep up
+                    with advancements in ML/AI. I am interested in senior roles where I can lead projects and mentor teams.
                 </p>
             </div>
         </div>

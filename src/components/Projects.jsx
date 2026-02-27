@@ -7,44 +7,52 @@ const Projects = () => {
 
     const projects = [
         {
-            title: "Retail Theft Detection System",
-            problem: "Shoplifting causes $100B+ in annual global losses",
-            solution: "Real-time computer vision system using OpenCV and YOLO",
-            impact: "Reduced potential losses by 40% in pilot tests",
-            tools: ["Python", "TensorFlow", "OpenCV", "Django", "YOLO"],
-            details: "Developed core ML pipeline and integration of computer vision system with web interface"
+            title: "N-ATLAS Multilingual LLM",
+            problem: "Lack of open-source LLMs supporting Nigerian languages",
+            solution: "Built an 8B‑parameter Llama‑3 based model trained on 400M tokens covering Yoruba, Hausa, Igbo and Nigerian English",
+            impact: "Launched at UNGA80 and open‑sourced; foundation for downstream NLP tools in Nigeria",
+            tools: ["PyTorch", "HuggingFace", "Llama-3", "NLP"],
+            details: "Co‑authored data collection protocols, trained model and managed release on HuggingFace (NCAIR1/N-ATLaS)."
         },
         {
-            title: "Accounting Management Software",
-            problem: "Manual financial tracking slows business growth",
-            solution: "Comprehensive financial management system with cash flow forecasting",
-            impact: "Reduced financial reporting time by 50% for SMEs",
-            tools: ["Java Spring Boot", "TensorFlow", "SARIMA", "Matplotlib"],
-            details: "Implemented forecasting models and inventory management features"
+            title: "ASR/TTS Pipeline for Nigerian Languages",
+            problem: "High word error rates on low-resource Nigerian speech data",
+            solution: "Fine‑tuned Whisper ASR with custom phoneme lexicons and built FastAPI inference endpoints for TTS",
+            impact: "Achieved <15% WER; deployed on AWS auto‑scaling infrastructure serving 10K+ daily requests",
+            tools: ["Whisper", "FastAPI", "Docker", "AWS Lambda"],
+            details: "Reduced TTS latency by 30% and open‑sourced models.",
         },
         {
-            title: "Silent Speech Interface",
-            problem: "Communication barriers for the deaf community",
-            solution: "Real-time speech-to-text conversion system",
-            impact: "Enabled seamless communication for hearing-impaired users",
-            tools: ["Java", "WebSockets", "NLP", "React"],
-            details: "Collaborated on backend development and real-time communication features"
+            title: "PrepAI Exam Prep Platform",
+            problem: "Manual question generation for WAEC/JAMB exams was time consuming",
+            solution: "Developed AI service using fine‑tuned LLMs and RAG for automatic question creation and evaluation",
+            impact: "Cut generation from hours to seconds and supported 200+ student assignments during pilot",
+            tools: ["HuggingFace", "LangChain", "Flask", "PostgreSQL"],
+            details: "Architected API with automated grading and mentored 45 students through curriculum."
         },
         {
-            title: "Nigerian Tourism Platform",
-            problem: "Underrepresentation of Nigeria's cultural heritage",
-            solution: "Interactive tourism portal with booking capabilities",
-            impact: "Increased tourism engagement by 30% in beta testing",
-            tools: ["Django", "PostgreSQL", "React", "Mapbox"],
-            details: "Full-stack development including payment integration and user reviews system"
+            title: "Nigerian SME Accounting & ERP System",
+            problem: "Manual financial tracking impeding SME growth",
+            solution: "Full‑stack accounting software with forecasting models and RBAC",
+            impact: "Handled 10K+ transactions; forecasts with <12% MAPE on 6‑month revenue",
+            tools: ["Flask", "Django", "PostgreSQL", "SARIMA"],
+            details: "Designed REST APIs and integrated SARIMA/ARIMA models for budget predictions."
         },
         {
-            title: "Easy Wallet App",
-            problem: "Inconvenience of physical cash transactions",
-            solution: "Digital wallet for expense tracking and money transfers",
-            impact: "Simplified financial transactions for 500+ beta users",
-            tools: ["Java Spring Boot", "PostgreSQL", "React"],
-            details: "Implemented secure transaction system and savings goal features"
+            title: "Credit Risk Scoring System",
+            problem: "Lack of reliable credit models for alternative lending",
+            solution: "Logistic regression + XGBoost pipeline exposed via real‑time scoring API",
+            impact: "82% accuracy and sub‑200ms response, enabling instant credit decisions",
+            tools: ["Scikit-learn", "XGBoost", "Flask", "Docker"],
+            details: "Engineered features from 30+ variables and containerized for horizontal scaling."
+        },
+        {
+            title: "Silent Speech Interface for Accessibility",
+            problem: "Communication barriers for speech‑impaired users",
+            solution: "Real‑time silent speech‑to‑text service using Java and WebSockets",
+            impact: "Delivered <500ms latency enabling accessible applications",
+            tools: ["Java", "WebSockets", "NLP", "Spring Boot"],
+            details: "Integrated intent recognition and managed end‑to‑end streaming."
         }
     ];
 

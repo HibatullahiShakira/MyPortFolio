@@ -14,11 +14,13 @@ const Hero = () => (
                         Hibatullahi Shakira
                     </h1>
                     <h2 className="text-3xl mb-8 font-light text-cyan-400">
-                        Data Scientist, Software Engineer & Problem Solver
+                        Machine Learning Engineer | Software Engineer
                     </h2>
                     <p className="text-lg mb-12 text-gray-300 max-w-2xl">
-                        I use technology to solve real-world problems, from reducing retail losses to streamlining financial operations.
-                        My approach combines <span className="text-cyan-400">data-driven insights</span> with <span className="text-cyan-400">practical software solutions</span> to create measurable impact.
+                        Machine learning and software engineer with a foundation in economics and a track record of shipping
+                        production‑grade AI systems. I design end‑to‑end ML pipelines, scalable backends, and cloud‑ready
+                        architectures that drive measurable impact in fintech, NLP/ASR, and enterprise applications.
+                        Passionate about building data‑driven solutions that scale and deploying models to real‑world services.
                     </p>
                     <div className="flex space-x-6">
                         <a
