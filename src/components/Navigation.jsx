@@ -11,7 +11,7 @@ const Navigation = () => (
             <div className="flex justify-between items-center">
                 <span className="text-2xl font-bold text-cyan-400">HS</span>
                 <div className="flex items-center gap-8 text-gray-300">
-                    {["Skills", "Projects", "Experience", "Contact"].map((item) => (
+                    {["About", "Education", "Leadership", "Skills", "Projects", "Experience", "Contact"].map((item) => (
                         <a
                             key={item}
                             href={`#${item.toLowerCase()}`}
@@ -20,6 +20,14 @@ const Navigation = () => (
                             {item}
                         </a>
                     ))}
+                    <a
+                        href="/resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ml-4 px-4 py-2 border border-cyan-400 text-cyan-400 rounded-lg hover:bg-cyan-400 hover:text-slate-900 transition-colors"
+                    >
+                        Resume
+                    </a>
                     <div className="flex gap-4 ml-4">
                         <a href="https://www.linkedin.com/in/shakira-hibatullahi-333126293/" target="_blank" rel="noopener noreferrer">
                             <Linkedin className="w-6 h-6 hover:text-cyan-400" />

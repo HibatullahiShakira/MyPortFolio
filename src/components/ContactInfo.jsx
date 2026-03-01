@@ -37,7 +37,7 @@ const ContactInfo = () => (
                         <div>
                             <h3 className="text-xl font-semibold text-cyan-100">Email Me</h3>
                             <a
-                                href="mailto:hibatullahishakira@gmail.com" // Replace with your Gmail
+                                href="mailto:hibatullahishakira@gmail.com" 
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-gray-300 hover:text-cyan-400 transition-colors"

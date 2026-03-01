@@ -6,6 +6,8 @@ import Contact from './components/Contacts.jsx';
 import About from './components/About.jsx';
 import ContactInfo from "./components/ContactInfo.jsx";
 import Experience from './components/Experience.jsx';
+import Education from './components/Education.jsx';
+import Leadership from './components/Leadership.jsx';
 
 const App = () => {
     return (
@@ -13,6 +15,8 @@ const App = () => {
             <Navigation />
             <Hero />
             <About/>
+            <Education />
+            <Leadership />
             <Skills />
             <Projects />
             <Experience />

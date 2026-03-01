@@ -3,31 +3,24 @@ import { motion } from 'framer-motion';
 const Skills = () => {
     const skills = {
         "Languages & Frameworks": [
-            "Python", "Java", "JavaScript", "SQL", "TypeScript",
-            "Flask", "Django", "FastAPI", "Spring Boot", "React"
+            "Python", "Java (Spring Boot)", "JavaScript", "SQL", "React", "FastAPI", "Django REST"
         ],
-        "ML/AI Stack": [
-            "PyTorch", "TensorFlow", "HuggingFace Transformers", "Scikit-learn",
-            "OpenCV", "Whisper", "Llama-3", "SARIMA/ARIMA", "XGBoost"
+        "Data & ML Engineering": [
+            "ETL Pipelines (Mage)", "GCP BigQuery", "PostgreSQL", "Event Sourcing",
+            "Feature Engineering", "Scikit-learn", "Forecasting Models"
         ],
-        "NLP & Speech": [
-            "ASR/TTS architectures", "NLTK", "SpaCy", "fine-tuning LLMs (LoRA)",
-            "prompt engineering", "Whisper", "Whisper", "speech preprocessing"
+        "Cloud & Infrastructure": [
+            "AWS (ECS Fargate, SQS, S3, RDS, Cognito)", "GCP", "Docker", "Kubernetes",
+            "LangGraph", "MLOps", "SageMaker"
         ],
-        "MLOps & Cloud": [
-            "Docker", "Kubernetes", "AWS (Lambda, SageMaker, EC2, S3)",
-            "CI/CD (GitHub Actions)", "MLflow"
+        "Financial Domain": [
+            "Double-Entry Accounting", "ERP Data Modelling", "Semantic Layers",
+            "Monte Carlo Simulation", "Nigerian Tax Law", "IFRS Depreciation",
+            "Credit Risk Modelling"
         ],
-        "Data Engineering": [
-            "PostgreSQL", "BigQuery", "ETL (Mage)", "Pandas", "NumPy",
-            "large-scale preprocessing"
-        ],
-        "Software Engineering": [
-            "REST API design", "microservices", "OOP", "SDLC", "TDD",
-            "Git", "WebSockets", "real-time systems"
-        ],
-        "Frontend": [
-            "HTML", "CSS", "JavaScript", "React", "responsive design"
+        "Architecture & Design": [
+            "Microservices", "Event-Driven Systems", "Multi-Tenant SaaS",
+            "RAG", "LLM Orchestration", "System Design", "SOLID Principles"
         ]
     };
 
@@ -39,24 +32,30 @@ const Skills = () => {
                 </h2>
 
                 <div className="grid md:grid-cols-3 gap-8">
-                    {Object.entries(skills).map(([category, items]) => (
+                    {Object.entries(skills).map(([category, items], idx) => (
                         <motion.div
                             key={category}
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: idx * 0.1 }}
                             className="bg-slate-700 p-6 rounded-xl"
                         >
                             <h3 className="text-xl font-semibold mb-4 text-cyan-400">
                                 {category}
                             </h3>
                             <div className="flex flex-wrap gap-2">
-                                {items.map((skill) => (
-                                    <span
+                                {items.map((skill, i) => (
+                                    <motion.span
                                         key={skill}
+                                        initial={{ opacity: 0, scale: 0.8 }}
+                                        whileInView={{ opacity: 1, scale: 1 }}
+                                        viewport={{ once: true }}
+                                        transition={{ delay: i * 0.05 }}
                                         className="bg-slate-600 px-3 py-1 rounded-full text-sm"
                                     >
                     {skill}
-                  </span>
+                  </motion.span>
                                 ))}
                             </div>
                         </motion.div>
