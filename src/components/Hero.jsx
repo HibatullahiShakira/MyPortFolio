@@ -57,10 +57,9 @@ const Hero = () => (
 
                     {/* Your Image */}
                     <img
-                        // current asset still Shakirah.JPG; replace or rename to update
                         src={new URL('../assets/Shakirah.JPG', import.meta.url).href}
                         alt="Hibatullahi Shakira"
-                        className="relative rounded-3xl w-full max-w-md max-h-[32rem] h-auto object-contain object-center border-2 border-cyan-500/20"
+                        className="relative rounded-3xl w-full max-w-md aspect-[4/5] object-cover object-top border-2 border-cyan-500/20"
                     />
                 </motion.div>
             </motion.div>
