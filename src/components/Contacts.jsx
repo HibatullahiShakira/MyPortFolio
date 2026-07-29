@@ -12,7 +12,7 @@ const Contacts = () => (
                             Open to senior machine learning & software engineering roles
                         </p>
                         <a
-                            href="https://docs.google.com/document/d/11rmjlJwidYg-AOwDdwK-Ckfn8kysgIp_oYI5ON1kXxg/edit?tab=t.0" // Replace with your actual CV/Resume URL
+                            href="/resume.pdf" // Replace with your actual CV/Resume URL
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block bg-cyan-500 text-slate-900 px-6 py-3 rounded-lg font-medium hover:bg-cyan-400 transition-colors"
