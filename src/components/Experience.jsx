@@ -3,6 +3,18 @@ import { motion } from 'framer-motion';
 const Experience = () => {
     const roles = [
         {
+            title: 'AI Developer',
+            company: 'I&M Engineering Limited',
+            location: 'Abuja, Nigeria',
+            dates: 'May 2026 – Present',
+            bullets: [
+                'Designing and developing AI-powered document intelligence systems, including a production FastAPI service that processes German-language construction order PDFs and extracts structured data through custom column-mapping specifications.',
+                'Diagnosed and resolved a critical production Docker failure — identified a stale image missing the application startup script, rebuilt and redeployed the corrected image to restore live service availability.',
+                'Performing systematic QA and output validation for AI document parsing systems, cross-referencing extracted values against master data mapping rules across 20+ line items per document.',
+                'Collaborating with cross-functional engineering teams on AI system architecture, deployment pipeline management, and documentation across the full development lifecycle.'
+            ]
+        },
+        {
             title: 'Software Engineer (ML-Focused)',
             company: 'National Centre for Artificial Intelligence & Robotics',
             location: 'Abuja, Nigeria',

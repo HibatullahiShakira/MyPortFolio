@@ -23,14 +23,13 @@ const Hero = () => (
                             viewport={{ once: true }}
                             transition={{ delay: 0.1 }}
                         >
-                            Machine Learning and Software Engineer with a foundation in economics 
+                            Machine Learning and Software Engineer with a foundation in Economics 
                             and a track record of shipping production-grade AI systems.
                             I design end-to-end ML pipelines, scalable backends, and cloud-ready 
                             architectures that drive measurable impact in fintech, NLP/ASR, 
-                            and enterprise applications.
-                            Specialising in financial intelligence systems and production-grade,
-                            event-driven architectures, with a background in backend engineering 
-                            (Java, Python), distributed ETL, and applied machine learning.
+                            and enterprise applications — specialising in financial intelligence 
+                            systems and event-driven architecture, with a background in backend 
+                            engineering (Java, Python), distributed ETL, and applied machine learning.
                         </motion.p>
                     </div>
                     <div className="flex space-x-6">
