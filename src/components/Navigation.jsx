@@ -21,7 +21,7 @@ const Navigation = () => (
                         </a>
                     ))}
                     <a
-                        href="/resume.pdf"
+                        href="./resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="ml-4 px-4 py-2 border border-cyan-400 text-cyan-400 rounded-lg hover:bg-cyan-400 hover:text-slate-900 transition-colors"
